@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 13px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-betweem;
+	margin-top: 30px;
+	margin-left: 80%;
+
+}
+
+.main1 {
+	display: flex;
+}
+
+.main1 a {
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 13px;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+
+
+}
+
+
+.main2 img {
+	border-radius: 50%;
+	width: 30px;
+	hight: 30px;
+	margin: 0 20px;
+}
+
+
+.heading img {
+	margin: 80px 0 30px 38%;
+	height: 25%;
+	width: 25%;
+	cursor: pointer;
+}
+
+
+.userinput {
+	backgroung-color: #ffffffff;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 30%;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 12px 20px;
+	margin: 0 0 0 31%;
+	border: none;
+	box-shadow: 0 2px 30px -8px white;
+	outline: none;
+}
+
+
+body {
+	background-image: url('../Assets/pxfuel.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+footer {
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 13px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	z-index: -50;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.material-symbols-outlined {
+	color: white;
+	margin: 0 0 0 20px;
+}
+
+.addnew {
+
+	color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 50px;
+}
+
+.addnew div {
+
+	margin: 0 30px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.addicon {
+	color: black;
+	margin: 0;
+	size: 20px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 80px;
+	height: 24px;
+	width: 24px;
+	cursor: pointer;
+}
+
+.addnew p {
+	color: white;
+	font-weight: 400;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis white-space: nowrap;
+	width: 100%;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	font-size: 13px;
+}
+
+.edit {
+	margin: 0;
+	color: white;
+	padding-right: 15px;
+	cursor: pointer;
+}
+
+.searchbar {
+	display: flex;
+	cursor: pointer;
+}
+
+.Voicesearch {
+	height: 20px;
+	width: 14px;
+	padding: 12px;
+	background-color: white;
+
+}
+
+.golens {
+	height: 20px;
+	width: 20px;
+	padding: 12px;
+	background-color: white;
+	padding-right: 30px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
